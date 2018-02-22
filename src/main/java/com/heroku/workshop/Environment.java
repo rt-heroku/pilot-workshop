@@ -4,7 +4,7 @@ public class Environment {
  String env;
  
  public String getEnvironment(){
-  return System.getEnv("ENVIRONMENT");
+  return System.getenv("ENVIRONMENT");
  }
 
 }
