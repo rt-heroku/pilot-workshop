@@ -1,5 +1,8 @@
 package com.heroku.workshop;
+/*
+NEW LINES
 
+*/
 import org.springframework.context.annotation.Bean;
 
 public class Environment {
@@ -7,7 +10,7 @@ public class Environment {
  
  //@Bean
  public String getEnvironment(){
-  System.out.println(System.getenv("ENVIRONMENT"));
+  System.out.println("ENVIRONMENT: " + System.getenv("ENVIRONMENT"));
   return System.getenv("ENVIRONMENT");
  }
 
